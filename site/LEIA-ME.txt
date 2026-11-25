@@ -1,0 +1,10 @@
+SITE DREAMS PLÁSTICOS — HTML/CSS/JS puro (sem build)
+
+Arquivos: index, servicos, empresa, contato, trabalhe-conosco + 46 páginas de SEO, style.css, main.js.
+
+ANTES DE PUBLICAR
+1) Imagens: rode "python3 baixar-imagens.py" (baixa as fotos e o logo do site antigo para assets/).
+   Sem isso, as imagens deixam de carregar quando o domínio apontar para o site novo.
+2) Formulários: em main.js, preencha FORM_ENDPOINTS (contato e trabalhe) com o endereço de um
+   serviço de formulários (ex.: Formspree). Enquanto estiver vazio, o formulário orienta a ligar para (11) 5660-7568.
+3) Hospedagem: funciona em Vercel/Netlify/qualquer hospedagem estática.
